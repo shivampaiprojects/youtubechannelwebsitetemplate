@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Channel Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="typeWriter()">
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Channel Name</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href=""></a></li>
+      </ul>
+    </div>
+
+</nav>
+<div style="text-align: center;background-color: black;padding: 15px;"><h1 class="glow" id="demo"></h1>
+</div><div><marquee onmouseover="this.stop()" onmouseout="this.start()">info</marquee></div>
+<button class="open-button" onclick="mail()"><span style="font-size:30px;" class="glyphicon glyphicon-envelope"></span></button>
+      <section id="videos" style="background-color: orange; padding:10px;">
+        <div style="text-align: center;"><h1>Videos</h1></div>
+        <div class="line"></div>
+        <span>
+        <section class="video-sec" style="padding:10px;width: 100%; display: inline-block;text-align: center;background-color: skyblue;">
+          <iframe class="vdo" src="https://www.youtube.com/embed/GaOaULS4sdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h2 class="vdo-lbl">NCERT CLASS 6 SCIENCE CHAPTER 10 MOTION & MEASUREMENT OF DISTANCES | PART 1 (Story Of Transport) |</h2>
+          <p class="vdo-lbl">WEBSITE : COMING SOON</p>
+          <a href="https://youtu.be/GaOaULS4sdY">Youtube Link</a>
+        </section>
+        </span>
+      </section>
+      <section id="contact" style="background-color: black; padding: 10px;">
+      <label class="contact" onclick="window.location = 'mailto:name@email.com'"><span class="glyphicon glyphicon-envelope"></span>&nbsp;Email ID</label><br>
+      <label class="contact" onclick="window.location = 'mailto:name@email.com'"><i class="fab fa-youtube"></i>&nbsp;Youtube Channel</label>
+      </section>
+    </body>
+</html>
+<script src="main.js">
+</script>
